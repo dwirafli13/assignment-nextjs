@@ -2,7 +2,7 @@ import React from "react";
 
 const Time = ({ data }) => {
   return (
-    <div>
+    <div className="font-mooli">
       <p>{data.id}</p>
       <p>{data.todo}</p>
     </div>
